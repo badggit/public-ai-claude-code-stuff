@@ -1,4 +1,4 @@
-# Automatic Wiki Update
+# Automatic Wiki Update, v.1.0.2
 
 Analyze the current conversation session to identify new features, architectural patterns, debugging techniques, and other project knowledge discovered during development work. Automatically create or update documentation files in the `/docs/wiki` directory.
 
@@ -19,11 +19,13 @@ Analyze the current conversation session to identify new features, architectural
    - Debugging tools and troubleshooting techniques
    - API endpoints, integrations, or data flows
    - Code patterns and architectural decisions
+   - **IMPORTANT**: Do NOT write current tasks, TODOs, bug fixes, or investigation results in the wiki, as they can quickly become outdated. Focus on documenting the underlying systems and architecture discovered during investigations.
+   - **IMPORTANT**: NEVER add passwords, keys, usernames, or any other sensitive information to the wiki, because the wiki content will be uploaded to public places (for example, GitHub).
 
 3. **Categorize discoveries** using these prefixes:
    - **feature-** - Specific features, functions, console commands, UI components
-   - **architecture-** - Project structure, design patterns, code organization, technology stack
-   - **debug-** - Debugging tools, diagnostic commands, troubleshooting techniques
+   - **architecture-** - Project structure, design patterns, code organization, technology stack, data flow systems
+   - **debug-** - Description of debugging tools, diagnostic commands, troubleshooting techniques (not investigation results)
    - **config-** - Configuration files, environment setup, deployment procedures
    - **workflow-** - Development processes, build systems, testing approaches
    - **integration-** - External APIs, third-party services, data connections
@@ -45,6 +47,7 @@ Analyze the current conversation session to identify new features, architectural
 
 ## Quality Standards
 
+- **IMPORTANT**: NEVER add passwords, keys, usernames, or any other sensitive information to the wiki, because the wiki content will be uploaded to public places (for example, GitHub).
 - Write all documentation in English
 - Use clear, specific titles that accurately describe the content
 - Include practical examples and usage instructions

@@ -1,9 +1,5 @@
 ## Session Initialization
 
 At the start of each session, you MUST:
-1. **Read `docs/wiki/README.md`** to review the current documentation index
-2. **Memorize the available documentation files** and their topics
-3. **Use existing documentation** when encountering questions covered in the docs index
-4. **Reference specific documentation files** (e.g., `docs/wiki/feature-wipe-and-reload.md`) when relevant topics arise
-
-This ensures you leverage existing project knowledge instead of rediscovering information.
+1. **Read and memorize** the available table of contents of Wiki (`docs/wiki/README.md`), links to full articles and short descriptions of these articles. Remember ONLY what is in `docs/wiki/README.md`. DO NOT READ the full texts of the articles at the start of each session, read them ONLY if there is a suitable article, based on its short description.
+2. **Reference specific documentation files** (e.g., `docs/wiki/feature-creating-new-queries.md`) when relevant topics arise. When this happens, in the body of the response write, "Using Wiki: <link to the full article file from docs/wiki/>". This ensures you leverage existing project knowledge instead of rediscovering information.

@@ -1,13 +1,29 @@
-# AI & Claude Code Utilities
+# AI Claude Code Gists
 
-A collection of utilities and examples to enhance productivity when working with AI assistants and Claude Code.
+This project is a collection of useful Gists for AI and Claude Code in particular.
 
-## Projects
+## Available Gists
 
-### [/wiki](./wiki) - Wiki Documentation System 
+### [/wiki](./wiki)
+A documentation management system that:
+- Provides automated documentation updates via `/wiki-update` command
+- Maintains structured documentation in `docs/wiki/` directory
+- Automatically loads and references existing documentation at session start
+- Maintains organized documentation index with cross-referencing
+- Ensures efficient knowledge reuse across sessions
 
-A documentation management system for Claude Code that enables automated documentation updates and maintenance.
+### [claude-md-global](./claude-md-global)
+A global configuration template that provides:
+- Consistent coding standards across all projects
+- English-only code comments and PR requirements
+- TypeScript safety rules and modular design patterns
+- Git workflow and PR management guidelines
+- Clean development practices and linter integration
 
-## Contributing
-
-This repository serves as a collection of practical tools. Feel free to contribute additional utilities that improve AI-assisted development workflows.
+### [simple-code-loop](./simple-code-loop)
+An iterative development loop command that:
+- Provides `/code:loop-start` command for automated code-test-review cycles
+- Executes: code → test → lint → review → fix → repeat until success
+- Saves iteration plans to `docs/reports/` for context persistence
+- Handles `/compact` gracefully by preserving and recalling plans
+- Supports resuming from saved plan files
