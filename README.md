@@ -27,3 +27,10 @@ An iterative development loop command that:
 - Saves iteration plans to `docs/reports/` for context persistence
 - Handles `/compact` gracefully by preserving and recalling plans
 - Supports resuming from saved plan files
+
+### [status-line](./status-line)
+A custom status line for Claude Code that:
+- Displays the current project folder name in blue
+- Shows remaining context percentage with color coding (green/yellow/red)
+- Shows the active model name and effort level in cyan
+- Works without `jq` — pure bash with grep/sed parsing
