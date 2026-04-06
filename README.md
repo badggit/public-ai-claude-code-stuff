@@ -30,7 +30,7 @@ An iterative development loop command that:
 
 ### [status-line](./status-line)
 A custom status line for Claude Code that:
-- Displays the current project folder name in blue
-- Shows remaining context percentage with color coding (green/yellow/red)
-- Shows the active model name and effort level in cyan
-- Works without `jq` — pure bash with grep/sed parsing
+- Displays the current project folder name in bold blue
+- Shows used context in K tokens with color coding: green (≤150K), yellow (≤190K), red (>190K)
+- Shows the active model display name and effort level in cyan
+- Works without `jq` — pure bash with grep/sed parsing of JSON from stdin
